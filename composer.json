@@ -10,7 +10,7 @@
     }
   ],
   "require": {
-    "tourze/core": "dev-master",
+    "tourze/base": "dev-master",
     "predis/predis": "^1.0",
     "league/monga": "^1.1"
   },
@@ -20,6 +20,14 @@
     },
     "files": [
       "bootstrap.php"
+    ]
+  },
+  "autoload-dev": {
+    "psr-4": {
+      "tourze\\NoSQL\\": "tests/"
+    },
+    "files": [
+      "bootstrap-dev.php"
     ]
   }
 }
