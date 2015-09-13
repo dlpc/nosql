@@ -2,7 +2,7 @@
   "name": "tourze/nosql",
   "description": "NoSQL相关类库",
   "minimum-stability": "stable",
-  "license": "proprietary",
+  "license": "MIT",
   "authors": [
     {
       "name": "tourze",
@@ -10,7 +10,7 @@
     }
   ],
   "require": {
-    "tourze/base": "dev-master",
+    "tourze/base": "^1.0",
     "predis/predis": "^1.0",
     "league/monga": "^1.1"
   },
